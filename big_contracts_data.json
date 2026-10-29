@@ -1,0 +1,68 @@
+{
+  "compiled_date": "2026-10-28",
+  "description": "Bucket of scraped/compiled data on major businesses handling big (primarily government/defense) contracts, their current status, and locations.",
+  "top_contractors_last_12mo": [
+    {
+      "rank": 1,
+      "company": "Lockheed Martin",
+      "ticker": "LMT",
+      "obligations_approx_usd": 50500000000,
+      "hq_location": "Bethesda, MD (6801 Rockledge Drive)",
+      "status_summary": "Record backlog $292B (Q3 2026). F-35 multi-year framework (~850 aircraft). PAC-3 MSE $52.5B. FY2026 sales guidance $80-82B. Strong growth.",
+      "key_programs": ["F-35", "Missiles (PAC-3)", "Space", "Sikorsky helicopters"],
+      "other_locations": ["Fort Worth/Grand Prairie TX", "Orlando FL"]
+    },
+    {
+      "rank": 2,
+      "company": "RTX Corporation",
+      "ticker": "RTX",
+      "obligations_approx_usd": 33900000000,
+      "hq_location": "Arlington, VA (1000 Wilson Blvd)",
+      "status_summary": "Top missile/radar/engine contractor. Recent SM-6, SPY-6, F135 sustainment awards. Strong demand.",
+      "key_programs": ["Patriot/SM series", "Pratt & Whitney engines", "Collins avionics", "Radars"],
+      "business_units_hq": {
+        "Raytheon": "Arlington VA",
+        "Pratt & Whitney": "East Hartford CT",
+        "Collins": "Charlotte NC"
+      }
+    },
+    {
+      "rank": 3,
+      "company": "The Boeing Company",
+      "ticker": "BA",
+      "obligations_approx_usd": 28700000000,
+      "hq_location": "Global: Arlington VA (929 Long Bridge Drive); Defense: St. Louis area (moved 2026)",
+      "status_summary": "KC-46 ongoing. New fighter programs (F-47, F/A-XX). Improved contract types for risk. Defense HQ relocated closer to production.",
+      "key_programs": ["KC-46", "F/A-18", "Apache", "Next-gen fighters", "Space"]
+    },
+    {
+      "rank": 4,
+      "company": "UnitedHealth Group (Optum)",
+      "obligations_approx_usd": 22500000000,
+      "hq_location": "Primarily health contracts via Optum",
+      "status_summary": "Major VA and health-related federal contracts."
+    },
+    {
+      "company": "General Dynamics",
+      "ticker": "GD",
+      "hq_location": "Reston, VA (11011 Sunset Hills Road)",
+      "status_summary": "Submarines via Electric Boat (often top in FY2026 provisional). Tanks, IT services.",
+      "key_programs": ["Virginia/Columbia-class subs", "Abrams tanks", "GDIT"],
+      "other_locations": ["Groton CT (Electric Boat)", "Sterling Heights MI"]
+    },
+    {
+      "company": "Northrop Grumman",
+      "ticker": "NOC",
+      "hq_location": "Falls Church, VA",
+      "status_summary": "Space, B-21, unmanned systems, radars. Ongoing awards.",
+      "obligations_approx_usd": 14400000000
+    }
+  ],
+  "trends": {
+    "hq_clustering": "Most defense primes headquartered in Northern Virginia / DC metro for customer proximity.",
+    "relocation_note": "Broader corporate trend to Texas (DFW, Austin, Houston); defense firms largely remain near DC. Boeing shifted defense HQ to St. Louis in 2026.",
+    "contract_climate": "High DoD spending. Multi-year and IDIQ awards common. Focus on munitions, sustainment, ships, aircraft, IT, border infrastructure.",
+    "data_sources": ["USAspending.gov", "Company earnings/press", "GovCon Wire", "FederalBidAlerts/GovChime"]
+  },
+  "disclaimer": "Public data snapshot. Obligations net of deobligations. FY2026 provisional. Verify with primary sources for decisions."
+}
